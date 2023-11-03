@@ -1,0 +1,157 @@
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    /* background-color: rgb(48, 47, 47); */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-attachment: fixed ;
+    background-position-y: -60rem;
+}
+/* body div{
+    border: 1px red solid;
+} */
+header{
+    width: 100%;
+    height: 6rem;
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.675),rgba(128, 128, 128, 0) 35% 75%,rgba(0, 0, 0, 0.673));
+    position: fixed;
+    top:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.container{
+    width: 98%;
+    height:5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContainer{
+    width:16%;
+    font-size: 1.4rem;
+    height:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.headerContact{
+    color: aliceblue;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-around;
+    width:30%;
+    height:4rem;
+}
+/* logo image */
+.logo{
+    width:5rem;
+    border-radius: 0.5rem;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+.main{
+    width:100%;
+    height:100vh;
+    color: aliceblue;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainContainer{
+    width:95%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactUs{
+    width:50%;
+    height:80vh;
+    background-color: rgba(0, 255, 255, 0.16);
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.feedback{
+    width:30%;
+    height: 80vh;
+    background-color: rgba(0, 255, 255, 0.172);
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    width:100%;
+    height:35vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width:55%;
+    color: aliceblue;
+    height:25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    /* border:1px red solid; */
+}
+.contact{
+    width:20%;
+    height: 25vh;
+    padding: 2rem;
+    color: aliceblue;
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.footer img{
+    width:20%;
+    border-radius: 5px;
+}
+.footer p{
+    font-size: 1.5rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.contact-icon{
+    width:50%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
